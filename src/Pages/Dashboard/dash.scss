@@ -1,0 +1,71 @@
+.dashboard-heading {
+    padding: 20px;
+  }
+  
+  .dashboard_card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+  .dashboard_card-box {
+    width: 48%;
+    display: flex;
+    gap: calc(10px + 0.2vw);
+    flex-wrap: wrap;
+  }
+  .dashboard_card-box_item {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 45%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dashboard_card-box_item p:first-of-type {
+    font-size: calc(1.2rem + 0.4vw);
+    font-weight: 600;
+    color: #008001;
+  }
+  .dashboard_card-box_item p:last-of-type {
+    margin-top: 10px;
+    color: #008001;
+  }
+  .dashboard_card-chart {
+    width: 48%;
+  }
+  @media screen and (max-width: 960px) {
+    .dashboard_card {
+      flex-direction: column;
+      width: 100%;
+    }
+    .dashboard_card-box {
+      width: 98%;
+    }
+    .dashboard_card-box_item {
+      background-color: whitesmoke;
+      min-height: 12vh;
+    }
+    .dashboard_card-chart {
+      width: 98%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .dashboard_card {
+      flex-direction: column;
+      width: 100%;
+    }
+    .dashboard_card-box {
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .dashboard_card-box_item {
+      width: 100%;
+    }
+    .dashboard_card-chart {
+      width: 100%;
+    }
+  }

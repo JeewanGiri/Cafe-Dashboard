@@ -1,0 +1,50 @@
+.dashboard{
+    .breadcrumb{
+        display: flex;
+        gap: 20px;
+         a{
+            text-decoration: none;
+            color: white;
+            background: rgb(52, 199, 77);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        a:hover{
+            
+            color:  rgb(6, 148, 30);
+            background: white;
+            transition: 1;
+        }
+       }
+       .card{
+        background: #6a8ccc;
+        margin: 5px;
+        box-shadow: 0 0 3px #6a8ccc;
+        display:grid ;
+        grid-template-columns: auto auto auto auto;
+        .cards{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 25px;
+            cursor: pointer;
+        }
+       }
+       .table{
+        padding: 20px;
+        background: lightgreen;
+        border-radius: 10px;
+        width: fit-content;
+        margin: 5px;
+        
+       }
+       .tables{
+        padding: 20px;
+        background: rgb(245, 110, 133);
+        border-radius: 10px;
+        width: fit-content;
+        margin: 5px;
+        
+       }
+     
+
+}

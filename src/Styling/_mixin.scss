@@ -1,0 +1,25 @@
+@mixin flexBox($justify_content: flex-start,$align_items:normal,$flex_direction:row){
+    display: flex;
+    justify-content: $justify_content;
+    align-items: $align_items;
+    flex-direction: $flex_direction;
+}
+// Responsive mixins
+$desktopView: 4220px;
+$laptopView:1600px;
+$tabView:600px;
+@mixin desktopView{
+    @media screen and (max-width:$desktopView) {
+       @content; 
+    }
+}
+@mixin laptopView{
+    @media screen and (max-width:$laptopView) {
+       @content; 
+    }
+}
+@mixin tabView{
+    @media screen and (max-width:$tabView) {
+       @content; 
+    }
+}

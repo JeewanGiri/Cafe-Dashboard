@@ -1,0 +1,44 @@
+{
+  "name": "project1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "@carbon/charts": "^1.15.3",
+    "@carbon/charts-react": "^1.15.3",
+    "@react-pdf/renderer": "^3.3.8",
+    "antd": "^5.14.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.1",
+    "framer-motion": "^11.0.6",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.22.1",
+    "react-toastify": "^10.0.4",
+    "react-typed": "^2.0.12",
+    "recoil": "^0.7.7",
+    "sass": "^1.71.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.0"
+  }
+}

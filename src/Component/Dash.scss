@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Dash{
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 100vh;
+        .AppHeader{
+            background:#ebe9e8;
+            width: 99vw;
+            height: 30px;
+            display: flex;
+            box-shadow: 0 0 5px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 20px 30px 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.15);
+            }
+         .middlepart{
+            display: flex;
+            gap:10px;
+            flex: 1;
+            align-items: flex-start;
+            justify-content: flex-start;
+            .SideMenu{
+                    .container{
+                        display: flex;
+                        gap: 7px;
+                        padding: 10px;
+                        cursor: pointer;
+                    }    
+            
+                }
+                .PageContent{
+                    padding: 10px;
+                    height: auto;
+                    }
+
+         }   
+         .AppFooter{
+                background:  #fafaf7;
+                height: fit-content;
+                width: 98vw;
+                display: flex;
+                font-size: 12px;
+                justify-content:space-evenly;
+                border-top: 2px solid rgba(0,0,0,0.15);
+                box-shadow: 0 0 5px #b6c199;
+                p{
+                    color: blue;
+                }
+                h4{
+                    color: red;
+                }
+                ul li{
+                    color: blue;
+                }
+             }
+    }
+
+

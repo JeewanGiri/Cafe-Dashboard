@@ -1,0 +1,88 @@
+.dashboard_container{
+    .text-dash{
+        .Topic{
+            display: flex;
+            gap: 50vw;
+        }
+        .go-backbtn {
+          margin-top: 10px;  
+        }
+        .category-heading{
+            font-weight: 600;
+        }
+        .take-order-input{
+            display: flex;
+            margin: 20px 20px 0px 20px;
+            justify-content: space-between;
+            align-items: center;
+            Input{
+               width: 40vw;
+            }
+            &p {
+                width: 64%;
+            }
+            &p:last-of-type {
+                width: 38%;
+            }
+        }
+        .takeorder-item-header-tableHeading{
+            margin: 0 20px 0 20px; 
+            display: flex;
+            justify-content: space-between;           
+        }
+        .takeorder{
+            padding: 0px 20px 10px 20px;
+            &-item {
+                background-color: whitesmoke;
+                border-radius: 4px;
+                justify-content: space-between;
+                align-items: center;
+                transition: all 0.2s ease-in-out;
+                margin-top: 10px;
+                &p {
+                    
+                    padding: 10px;
+                }
+                & p:first-of-type {
+        
+                    width: 60%;
+                }
+                & p:nth-of-type(2) {
+        
+                    width: 15%;
+                }
+                & p:last-of-type {
+                    margin-right: 1vw;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 10px;
+                    width: 20%;
+                }
+                &:hover {
+                    transition: all 0.2s ease-in-out;
+                    background-color: rgb(87, 56, 87);
+                    cursor: pointer;
+                    & p {
+                        color: white;
+                    }
+                }
+            }
+            .takeorder-item{
+                    .items{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+            }
+
+        }
+
+     .take-order-submit{
+        justify-content: flex-end;
+        align-items: center;
+        margin: 20px 20px 20px 0;
+        padding-bottom: 30px;
+     }
+  }
+}
+
+
